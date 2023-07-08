@@ -4,6 +4,7 @@ import { HeaderComponent } from '../header/header.component';
 import { RoomsService } from './services/rooms.service';
 import { Observable, Subject, Subscription, catchError, map, of } from 'rxjs';
 import { HttpEventType } from '@angular/common/http';
+import { ConfigService } from '../services/config.service';
 
 @Component({
   selector: 'app-rooms',
@@ -11,6 +12,10 @@ import { HttpEventType } from '@angular/common/http';
   styleUrls: ['./rooms.component.scss']
 })
 export class RoomsComponent implements OnInit, DoCheck, AfterViewInit, AfterViewChecked {
+
+  constructor(@SkipSelf() private roomServices: RoomsService, private configService: ConfigService) { 
+    
+  }
 
   hotelName = 'Hilton Hotel';
 
@@ -122,7 +127,7 @@ export class RoomsComponent implements OnInit, DoCheck, AfterViewInit, AfterView
 
   // roomServices = new RoomsService();
 
-  constructor(@SkipSelf() private roomServices: RoomsService) { }
+ 
 
   
 

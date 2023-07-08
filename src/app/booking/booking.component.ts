@@ -2,13 +2,10 @@ import { Component } from '@angular/core';
 import { ConfigService } from '../services/config.service';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']
+  selector: 'app-booking',
+  templateUrl: './booking.component.html',
+  styleUrls: ['./booking.component.scss']
 })
-export class HeaderComponent {
-
+export class BookingComponent {
   constructor(private configService: ConfigService) {}
-
-  title: string = ''
 }
