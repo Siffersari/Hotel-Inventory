@@ -1,27 +1,62 @@
-# Hotelinventoryapp
+# Hotel-Inventory
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.1.
+A comprehensive hotel inventory and reservation management system built with Angular. Streamline hotel operations, track inventory in real-time, and manage bookings with ease.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Inventory Tracking: Maintain accurate inventory records and generate detailed reports for informed decision-making.
+Reservation Management: Effortlessly handle room bookings, check availability, and manage guest reservations.
+User-Friendly Interface: Intuitive design for simplified hotel management processes.
+## Technologies
 
-## Code scaffolding
+Angular CLI: Core framework for building the application.
+TypeScript: For robust type-checking and code maintainability.
+HTML: Structural foundation of the user interface.
+SCSS: For efficient styling and CSS organization.
+## Installation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Clone the repository:
 
-## Build
+```
+git clone https://github.com/Siffersari/Hotel-Inventory.git
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Install dependencies:
 
-## Running unit tests
+```
+cd Hotel-Inventory
+npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Start the development server:
+```
+Bash
+ng serve
+Access the application at http://localhost:4200.
+```
 
-## Running end-to-end tests
+## Testing
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Unit tests:
+```
+ng test 
+```
+End-to-end tests:
+```
+ng e2e
+```
 
-## Further help
+## Contributing
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+We appreciate your interest in contributing!
+
+Fork the repository.
+Create a descriptive branch.
+Make your changes and commit.
+Push to your branch.
+Submit a pull request.
+Please consider discussing major changes in an issue before implementation.
+
+## Contact
+
+For any questions or support, please reach out to leewelkarani@gmail.com.
