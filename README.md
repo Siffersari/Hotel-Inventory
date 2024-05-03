@@ -30,10 +30,9 @@ npm install
 
 Start the development server:
 ```
-Bash
 ng serve
-Access the application at http://localhost:4200.
 ```
+Access the application at **http://localhost:4200.**
 
 ## Testing
 
